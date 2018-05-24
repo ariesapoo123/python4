@@ -1,0 +1,9 @@
+>>> from functools import reduce
+	  
+>>> tuple = (1, 2, 3)
+	  
+>>> result = reduce((lambda x, y: x * y), tuple)
+	  
+>>> print(result)
+	  
+6

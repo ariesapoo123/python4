@@ -1,0 +1,19 @@
+>>> d = {}
+>>> for i in range(10):
+	num = input("enter")
+	l = num.split(':')
+	d[l[0]] = l[1]
+
+	
+enterani:10
+enterapoo:12
+enteranie:14
+enteranyy:16
+enterapyy:18
+enteranan:11
+enteranuu:17
+enteranii:19
+enteraluu:13
+enteradyy:20
+>>> print(d)
+{'ani': '10', 'apoo': '12', 'anie': '14', 'anyy': '16', 'apyy': '18', 'anan': '11', 'anuu': '17', 'anii': '19', 'aluu': '13', 'adyy': '20'}

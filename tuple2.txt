@@ -1,0 +1,10 @@
+>>> tuple1 = (1,2,4)
+	  
+>>> tuple2 = (3,5,7)
+
+>>> print("maximum elements in tuple 1,2  " + str(max(tuple1)) + "," + str(max(tuple2)))
+	  
+maximum elements in tuple 1,2  4,7
+>>> print("minimum elements in tuple 1,2  " + str(min(tuple1)) + "," + str(min(tuple2)))
+	  
+minimum elements in tuple 1,2  1,3
