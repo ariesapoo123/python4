@@ -1,0 +1,53 @@
+l = []
+
+for num in range(20):
+    num = int(input("enter value: "))
+    l.append(num)
+
+pos, neg, even, odd, zero = 0, 0, 0, 0, 0
+for i in l:
+    if int(i) > 0:
+        pos += 1
+    elif int(i) < 0:
+        neg += 1
+    elif int(i) % 2 == 0:
+        even += 1
+    elif int(i) % 2 != 0:
+        odd += 1
+    elif int(i) == 0:
+        zero += 1
+    else:
+        print("error")
+print(pos)
+print(neg)
+print(odd)
+print(even)
+print(zero)
+
+
+enter value: -1
+enter value: -2
+enter value: -3
+enter value: -4
+enter value: -5
+enter value: -6
+enter value: -7
+enter value: -8
+enter value: -9
+enter value: -10
+enter value: 1
+enter value: 2
+enter value: 3
+enter value: 4
+enter value: 5
+enter value: 6
+enter value: 7
+enter value: 8
+enter value: 9
+enter value: 10
+
+10
+10
+10
+10
+0
